@@ -9,28 +9,28 @@
 				"name": "Work",
 				"title": "Work and Projects",
 				"url": "/work/",
-				"weight": 100
+				"weight": 1
 			},
 			{
 				"identifier": "blog",
 				"name": "Blog",
 				"title": "Blog and Various Writings",
 				"url": "/blog/",
-				"wight": 99
+				"wight": 2
 			},
 			{
 				"identifier": "about",
 				"name": "About",
 				"title": "About Kevin McGowan",
 				"url": "/about/",
-				"weight": 98
+				"weight": 3
 			},
 			{
 				"identifier": "thesis",
 				"name": "Thesis",
 				"title": "MA+P Thesis Project",
 				"url": "/work/",
-				"weight": 96
+				"weight": 4
 			}
 		]
 	}
