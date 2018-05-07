@@ -1,0 +1,44 @@
+.grid-container {
+  display: grid;
+  // Grid for small screens 0 -> 575px
+  // Portrait phones
+
+  grid-template-columns: [left-gutter] 20px auto [right-gutter] 20px;
+  grid-template-rows: 60px auto auto auto;
+  grid-template-areas:
+    "left-gutter header right-gutter"
+    "menu menu menu"
+    ". main ."
+    ". footer .";
+
+  .left-gutter {
+    grid-area: left-gutter;
+  }
+  .app-main-header {
+    grid-area: header;
+  }
+  .right-gutter {
+    grid-area: right-gutter;
+  }
+  .app-side-nav {
+    grid-area: menu;
+  }
+  .app-main-content {
+    grid-area: main;
+    //background-color: green;
+  }
+  .app-main-footer {
+    grid-area: footer;
+  }
+
+  @include MQ(sm) {
+
+  }
+  @include MQ(md) {
+
+  }
+  @include MQ(lg) {
+
+  }
+}
+

@@ -1,0 +1,31 @@
+// Colors
+// ------------------------------------
+$white:           #FFFDFD;
+$primary-black:   #212121;
+$secondary-black: #757575;
+$blue-black:      #3e454c;
+$success:         #45A574;
+$warning:         #FFD866;
+$danger:          #F05D5E;
+$accent:          #326799;
+// Text Colors
+$text-primary:    $primary-black;
+$text-secondary:  $secondary-black;
+$text-white:      $white;
+$text-success:    $success;
+$text-warning:    $warning;
+$text-danger:     $danger;
+$text-accent:     $accent;
+// Page Colors
+$page-background: $white;
+// ------------------------------------
+
+// header size
+
+$header-height-S: 80px;
+$header-height-M: 150px;
+
+// sidebar size
+
+$sidebar-width-M: 300px;
+$sidebar-width-L: 400px;

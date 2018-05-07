@@ -2,5 +2,6 @@
 	"title": "{{ replace .Name '-' ' ' | title }}",
 	"date": "{{ .Date }}",
 	"draft": true,
-	"author": "Kevin McGowan"
+	"author": "Kevin McGowan",
+	"type": "blog"
 }

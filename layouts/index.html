@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{ .Site.Title }}</title>
+</head>
+<body>
+	<h1>The site homepage</h1>
+	<hr>
+	{{ partial "nav" . }}
+	<hr>
+	{{ range where .Data.Pages "Section" "work"}}
+		{{ .Content }}
+		<hr>
+	{{ end}}
+</body>
+</html>

@@ -1,0 +1,31 @@
+.page404 {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  .bg-message {
+    //color: lighten($grey-light, 10%);
+    position: absolute;
+    top:0;
+    left:50%;
+    @include  transform(translate(-50%, 20%));
+    @include MQ(M) {
+      @include  transform(translate(-50%, -30%));
+    }
+    font-size: 75vw;
+    margin: 0;
+    z-index: -1;
+  }
+  #obi_wan {
+    padding:25px;
+    width:500px;
+    height: 500px;
+  }
+  .error-box {
+    padding: 25px;
+    h2 {
+      margin:0 0 10px;
+    }
+  }
+}

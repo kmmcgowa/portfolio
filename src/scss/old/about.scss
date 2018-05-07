@@ -1,0 +1,109 @@
+@import 'bourbon/_bourbon';
+@import 'partials/_type';
+@import 'partials/_variables';
+@import 'partials/_mixins';
+@import 'partials/_mediaQuery';
+
+.about-page {
+  width: 100%;
+  max-width: 800px;
+
+  .about-image-box {
+    max-height: 300px;
+    max-width: 800px;
+    overflow: hidden;
+    @include transition(all .5s ease-out);
+    .about-hero-image {
+      opacity: 0;
+      width: 100%;
+      @include transition(all .5s ease-out);
+    }
+  }
+  .about-title {
+    margin: 10px 0;
+  }
+  .about-content {
+    a {
+      color: $text-primary;
+      text-decoration: underline;
+    }
+    #resume {
+      width: 100%;
+      box-shadow: 4px 4px 4px #222;
+    }
+  }
+}
+
+.thesis-page {
+  width: 100%;
+  max-width: 800px;
+
+  .thesis-image-box {
+    max-height: 400px;
+    max-width: 800px;
+    overflow: hidden;
+    @include transition(all .5s ease-out);
+    .thesis-hero-image {
+      opacity: 0;
+      width: 100%;
+      @include transition(all .5s ease-out);
+    }
+  }
+  .thesis-title {
+    margin: 10px 0;
+  }
+  .thesis-content {
+    a {
+      color: $text-primary;
+      text-decoration: underline;
+    }
+  }
+}
+
+.thesis-small {
+  width: 100%;
+  padding: 0 0 10px 0;
+  @include MQ(M) {
+    width: 300px;
+  }
+}
+
+.thesis-med {
+  width: 100%;
+  padding-bottom: 10px;
+  @include MQ(M) {
+    width: 400px;
+  }
+}
+
+.thesis-thin {
+  width: 100%;
+
+}
+.left {
+  float: left;
+  @include MQ(M) {
+    padding: 0 10px 10px 0;
+  }
+}
+.right {
+  float: right;
+  @include MQ(M) {
+    padding: 0 0 10px 10px;
+  }
+}
+
+#video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+#video iframe, #video object, #video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
