@@ -10,14 +10,18 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.24.1",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat": "^2.6.1",
     "gulp-hash": "^4.2.2",
     "gulp-imagemin": "^4.1.0",
+    "gulp-rename": "^1.2.2",
     "gulp-responsive": "^2.10.0",
     "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
     "imagemin-mozjpeg": "^7.0.0"
   }
 }

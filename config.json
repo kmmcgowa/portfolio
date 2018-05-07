@@ -1,5 +1,37 @@
 {
 	"baseURL": "https://kevin-mcgowan.com/",
 	"langaugeCode": "en-us",
-	"title": "Kevin McGowan's Portfolio"
+	"title": "Kevin McGowan's Portfolio",
+	"menu": {
+		"main": [
+			{
+				"identifier": "work",
+				"name": "Work",
+				"title": "Work and Projects",
+				"url": "/work/",
+				"weight": 100
+			},
+			{
+				"identifier": "blog",
+				"name": "Blog",
+				"title": "Blog and Various Writings",
+				"url": "/blog/",
+				"wight": 99
+			},
+			{
+				"identifier": "about",
+				"name": "About",
+				"title": "About Kevin McGowan",
+				"url": "/about/",
+				"weight": 98
+			},
+			{
+				"identifier": "thesis",
+				"name": "Thesis",
+				"title": "MA+P Thesis Project",
+				"url": "/work/",
+				"weight": 96
+			}
+		]
+	}
 }

@@ -3,3 +3,5 @@ data/**/hash.*
 static/
 public/
 .DS_Store
+
+.idea/
