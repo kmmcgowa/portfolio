@@ -4,3 +4,5 @@ a href='/css/{{ index .Site.Data./dir/.hash `main.dir`}}'
 
 hugo server -wv
 gulp
+
+this edit was made in code
