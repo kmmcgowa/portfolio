@@ -1,0 +1,57 @@
+body{
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+h1,h2,h3,h4,h5,h6{
+  color: $text-primary;
+  font-weight: 700;
+}
+h1{
+  font-size: 1.87rem;
+  line-height: 1.2;
+  font-weight: 900;
+}
+h2{
+  font-size: 1.6rem;
+  line-height: 1.3;
+}
+h3{
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+h4{
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+@include MQ(md) {
+  h1 {  font-size: 2.2rem;  }
+  h2 { font-size: 1.87rem; }
+  h3 { font-size: 1.4rem }
+  h4 { font-size: 1.2rem; }
+}
+@include MQ(lg) {
+  h1 {  font-size: 2.6rem;  }
+  h2 { font-size: 2rem; }
+  h3 { font-size: 1.6rem }
+  h4 { font-size: 1.2rem; }
+}
+a{
+  color: $text-secondary;
+  text-decoration: none;
+}
+a:hover{
+  color: $text-primary;
+  text-decoration: none;
+}
+
+.serif {
+  font-family: 'Playfair Display', serif;
+}
+
+.blockquote {
+  padding: .5rem 1rem;
+  margin: 0 0 1rem;
+  font-size: 1.15rem;
+  border-left: .25rem solid #eceeef;
+}

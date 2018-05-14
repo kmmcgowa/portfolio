@@ -37,14 +37,15 @@ gulp.task('scss', function(){
 			outputStyle: 'compressed'
 		}))
 		.pipe(sourcemaps.write())
-		.pipe(gulp.dest('staitc/css'))
+		.pipe(autoprefixer())
+		.pipe(gulp.dest('static/css'))
 		.pipe(browsersync.stream());
 });
 
 gulp.task('watch', function(){
 	gulp.watch('src/js/**/*.js', ['js:minify']);
 	gulp.watch('src/scss/**/*.scss', ['scss']);
-	gulp.watch('layouts/**/*.html').on('change', browsersync.reload);
+	//gulp.watch('layouts/**/*.html').on('change', browsersync.reload);
 });
 
 gulp.task('clear', function(){

@@ -1,17 +1,26 @@
-<!DOCTYPE html>
-<html>
-<head>
-
-	{{ partial "meta" . }}
-
-	<title></title>
-</head>
+{{ partial "head" . }}
 <body>
-	{{ block "main" . }}
+	<div class="grid-container">
+		<div class="left-gutter"></div>
 
-	{{ end }}
-	<footer>
-		footer content on the baseof
-	</footer>
+		{{ partial "header" . }}
+
+		<div class="right-gutter"></div>
+
+		{{ partial "nav" . }}
+
+		<main class="app-main-container">
+			<div class="content-wrapper">
+				{{ block "main" . }}
+					Default Content
+				{{ end }}
+			</div>
+		</main>
+
+		{{ partial "footer" . }}
+
+	</div>
+
+	{{ partial "scripts" . }}
 </body>
 </html>

@@ -1,0 +1,56 @@
+@import 'partials/fonts';
+@import 'normalize/normalize';
+// @import 'bourbon/_bourbon';
+@import 'partials/variables';
+@import 'partials/mixins';
+@import 'partials/mediaQueries';
+@import 'partials/type';
+
+
+//@import 'bulma/utilities/_all';
+//@import 'bulma/elements/form';
+//@import 'bulma/elements/button';
+//@import 'bulma/elements/table';
+//@import 'bulma/elements/icon';
+//@import 'bulma/components/message';
+//@import 'bulma/app/hero';
+
+@import 'app/_all.scss';
+
+// // Global Styles
+
+// *, *::after, *::before {
+//   -webkit-box-sizing: border-box;
+//   -moz-box-sizing: border-box;
+//   box-sizing: border-box;
+// }
+// html {
+
+// }
+// body {
+//   color: $text-primary;
+//   background-color: $page-background;
+//   width: 100vw;
+//   @include clearfix;
+// }
+// .clearfix {
+//   @include clearfix;
+// }
+// hr {
+//   border: 0;
+//   height: 1px;
+//   background: $text-primary;
+//   background-image: linear-gradient(to right lighten($text-primary, 50%), $text-primary, lighten($text-primary, 50%));
+// }
+// .show-for-mobile-only {
+//   display: block;
+// }
+// @include MQ(lg) {
+//   .show-for-mobile-only {
+//     display: none;
+//   }
+// }
+// .flex {
+//   display: flex;
+//   justify-content: start;
+// }

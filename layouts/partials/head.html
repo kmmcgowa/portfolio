@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{{ partial "analytics" . }}
+	{{ partial "meta" . }}
+	<title>
+	{{ if eq .Kind  "home" }}
+		{{- .Site.Title -}}
+	{{ else }}
+		{{- .Title -}}
+	{{ end }}
+	</title>
+	{{ partial "css" . }}
+</head>

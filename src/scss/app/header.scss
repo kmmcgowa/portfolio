@@ -1,0 +1,17 @@
+@import '../hamburger/hamburgers';
+
+.app-logo {
+  .serif {
+    display: inline-block;
+    //margin: 0;
+  }
+}
+.app-nav-trigger {
+  float: right;
+  outline: none;
+  transform: translateY(16px);
+  @include MQ(md) {
+    transform: translateY(25px);
+  }
+  @include clearfix;
+}

@@ -1,0 +1,62 @@
+.app-side-nav {
+  z-index: 10;
+  width: 100%;
+  padding: 0 20px;
+  background-color: $blue-black;
+  overflow: hidden;
+  max-height: 0;
+  &.nav-is-active {
+    max-height: 500px;
+    box-shadow: 0px 5px 10px lighten($primary-black, 50%);
+  }
+  transition: max-height 0.3s ease;
+  > ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    > li {
+      width: 100%;
+      text-align: center;
+      padding-bottom: 10px;
+      a {
+        position: relative;
+        color: $text-white;
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        width: 100%;
+        // the underline under the current active link
+        &.active:before {
+          content: '';
+          display: block;
+          position: absolute;
+          bottom: -4px;
+          left: 0;
+          height: 2px;
+          width: 100%;
+          background-color: lighten($white, 50%);
+        }
+      }
+    }
+  }
+  #social-icons {
+    display: flex;
+    justify-content: center;
+    #social-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 10px 0;
+      .social-icon {
+        display: inline;
+        padding: 0 3px;
+        a {
+          color: $text-white;
+        }
+      }
+    }
+  }
+  @include MQ(md) {
+    margin-top: 10px;
+  }
+}

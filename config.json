@@ -2,6 +2,7 @@
 	"baseURL": "https://kevin-mcgowan.com/",
 	"langaugeCode": "en-us",
 	"title": "Kevin McGowan's Portfolio",
+	"sectionPagesMenu": "main",
 	"menu": {
 		"main": [
 			{
@@ -16,7 +17,7 @@
 				"name": "Blog",
 				"title": "Blog and Various Writings",
 				"url": "/blog/",
-				"wight": 2
+				"weight": 2
 			},
 			{
 				"identifier": "about",
@@ -29,7 +30,7 @@
 				"identifier": "thesis",
 				"name": "Thesis",
 				"title": "MA+P Thesis Project",
-				"url": "/work/",
+				"url": "/thesis/",
 				"weight": 4
 			}
 		]
