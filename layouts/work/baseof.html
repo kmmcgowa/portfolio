@@ -1,0 +1,26 @@
+{{ partial "head" . }}
+<body>
+	<div class="grid-container">
+		<div class="left-gutter"></div>
+
+		{{ partial "header" . }}
+
+		<div class="right-gutter"></div>
+
+		{{ partial "nav" . }}
+
+		<main class="app-main-container">
+			<div class="content-wrapper">
+				{{ block "main" . }}
+					Default Content
+				{{ end }}
+			</div>
+		</main>
+
+		{{ partial "footer" . }}
+
+	</div>
+
+	{{ partial "scripts" . }}
+</body>
+</html>

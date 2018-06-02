@@ -1,0 +1,8 @@
+{{/* class for the blog list is 'post-thumb' for a single page its 'post-hero-img' */}}
+
+{{ $class := .className }}
+{{ with .context.Resources.GetMatch "primary_image" }}
+	{{ $image := .Resize "1200x q75" }}
+
+	<img src="{{ $image.RelPermalink }}" alt="{{ $image.Title }}" class="{{ $class }}">
+{{ end }}

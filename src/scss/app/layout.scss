@@ -31,14 +31,17 @@
     grid-area: footer;
   }
 
-  @include MQ(sm) {
-
-  }
-  @include MQ(md) {
-
-  }
   @include MQ(lg) {
-
+    grid-template-columns: [left-gutter] 20px minmax(auto, 300px) auto [right-gutter] 20px;
+    grid-template-rows: 60px auto auto;
+    grid-template-areas:
+      "left-gutter header main right-gutter"
+      ". menu main ."
+      ". footer footer .";
   }
 }
 
+.content-wrapper {
+  width: 100%;
+  margin-top: 25px;
+}

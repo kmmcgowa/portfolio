@@ -1,6 +1,14 @@
 
 {{ define "main" }}
-		<h1>{{ .Title }}</h1>
-		<hr>
-		{{ .Content }}
+	<article class="single-post-layout subgrid post">
+		<div class="middle-col">
+			
+			{{ $imageData := (dict "context" . "className" "post-hero-img") }}
+			{{ partial "blog-image" $imageData }}
+
+			<h2 class="serif post-title">{{ .Title }}</h2>
+			<h4 class="serif post-date">{{ .Date.Format "January 2006" }}</h4>
+			<div class="post-content">{{ .Content }}</div>
+		</div>
+	</article>
 {{ end }}

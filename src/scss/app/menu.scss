@@ -1,7 +1,7 @@
 .app-side-nav {
   z-index: 10;
   width: 100%;
-  padding: 0 20px;
+  //padding: 0 20px;
   background-color: $blue-black;
   overflow: hidden;
   max-height: 0;
@@ -58,5 +58,41 @@
   }
   @include MQ(md) {
     margin-top: 10px;
+  }
+  @include MQ(lg) {
+    max-height: 100vh;
+    background-color: $white;
+    margin-top: 100px;
+
+    > ul {
+      >li {
+        text-align: left;
+        a {
+          color: $text-primary;
+          &.active:before {
+            background-color: lighten($primary-black, 50%);
+          }
+        }
+      }
+    }
+    #social-icons {
+      justify-content: start;
+      #social-list {
+        .social-icon {
+          a {
+            color: $primary-black;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include MQ(lg) {
+  .app-side-nav {
+    width: 300px;
+    position: fixed;
+    left: 20px;
+    top: 35px;
   }
 }

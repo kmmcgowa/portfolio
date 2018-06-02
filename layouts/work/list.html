@@ -1,0 +1,15 @@
+{{ define "main" }}
+	<section class="subgrid work">
+	{{ range .Data.Pages.ByDate.Reverse }}
+		<a href="{{ .Permalink }}">
+			<div class="project-box">
+				{{ $imageData := (dict "context" . "className" "project-thumb") }}
+						{{ partial "blog-image" $imageData }}
+				<div class="project-title">
+					<h4 class="serif">{{ .Title }}</h4>
+				</div>
+			</div>
+		</a>
+	{{ end }}
+	</section>
+{{ end }} 

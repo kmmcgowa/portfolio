@@ -13,5 +13,16 @@
   @include MQ(md) {
     transform: translateY(25px);
   }
+  @include MQ(lg) {
+    transform: translateY(34px);
+  }
   @include clearfix;
+}
+
+@include MQ(lg) {
+  .app-main-header {
+    width: 300px;
+    position: fixed;
+    left: 20px;
+  }
 }

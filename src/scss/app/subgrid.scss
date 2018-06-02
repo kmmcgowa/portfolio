@@ -1,0 +1,16 @@
+.subgrid {
+  display: grid;
+
+  &.blog, &.post, &.project {
+		grid-template-columns: auto minmax(auto, 1200px) auto;
+		.middle-col {
+			grid-column-start: 2;
+			grid-column-end: 3;
+		}
+  }
+
+  &.work {
+		grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+		grid-auto-rows: 400px;
+  }
+}

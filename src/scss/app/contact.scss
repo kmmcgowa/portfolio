@@ -1,9 +1,0 @@
-.error-list {
-  list-style: none;
-}
-.contactForm {
-  width: 100%;
-  @include MQ(L) {
-    width: 800px;
-  }
-}

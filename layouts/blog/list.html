@@ -1,0 +1,30 @@
+{{ define "main" }}
+	<section class="blog subgrid">
+	{{ range .Data.Pages.ByDate.Reverse }}
+		<div class="middle-col">
+			<a href="{{ .Permalink }}">
+				<div class="blog-box">
+					<div class="blog-image-box">
+
+
+						{{ $imageData := (dict "context" . "className" "post-thumb") }}
+						{{ partial "blog-image" $imageData }}
+
+						<div class="post-read-more">
+							<h3 class="serif">Read More</h3>
+						</div>
+					</div>
+					<div class="blog-content-box">
+						<h2 class="serif post-title">
+							{{ .Title }}
+						</h2>
+						<div class="post-content">
+							{{ .Summary | truncate 300 }}
+						</div>
+					</div>
+				</div>
+			</a>
+		</div>
+	{{ end }}
+	</section>
+{{ end }}

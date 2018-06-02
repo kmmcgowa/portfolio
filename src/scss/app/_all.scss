@@ -3,6 +3,40 @@
 @import 'menu';
 @import 'project-list';
 @import 'project';
-@import 'login';
-@import 'contact';
+@import 'blog-list';
+@import 'blog';
+@import 'subgrid';
 @import '404';
+
+
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+
+}
+body {
+  color: $text-primary;
+  background-color: $page-background;
+  width: 100vw;
+  @include clearfix;
+}
+.clearfix {
+  @include clearfix;
+}
+hr {
+  border: 0;
+  height: 1px;
+  background: $text-primary;
+  background-image: linear-gradient(to right lighten($text-primary, 50%), $text-primary, lighten($text-primary, 50%));
+}
+.show-for-mobile-only {
+  display: block;
+}
+@include MQ(lg) {
+  .show-for-mobile-only {
+    display: none;
+  }
+}
