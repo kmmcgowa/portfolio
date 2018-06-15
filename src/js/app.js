@@ -89,11 +89,39 @@ jQuery(document).ready(function(){
         });
     }
 
+    function standardImagePaddings() {
+        var standardImages = document.querySelectorAll('.standard-image-box');
+
+        standardImages.forEach(function(box){
+            var children = box.childNodes;
+            var height = children[1].height;
+            var boxBottom = height + 40
+            var captionTop = height + 10;
+            box.style.paddingBottom = boxBottom + "px";
+            children[3].style.paddingTop = captionTop + "px";
+        });
+    }
+
     /*
         auto trigger scroll for elements that are already onscreen
     */
     $(window).trigger('scroll');
+    standardImagePaddings();
+    $(window).on('resize', standardImagePaddings);
+
+
 
     var Fucla = ' /$$$$$$$$ /$$   /$$  /$$$$$$  /$$        /$$$$$$\n| $$_____/| $$  | $$ /$$__  $$| $$       /$$__  $$\n| $$      | $$  | $$| $$  \\__/| $$      | $$  \ $$\n| $$$$$   | $$  | $$| $$      | $$      | $$$$$$$$\n| $$__/   | $$  | $$| $$      | $$      | $$__  $$\n| $$      | $$  | $$| $$    $$| $$      | $$  | $$\n| $$      |  $$$$$$/|  $$$$$$/| $$$$$$$$| $$  | $$\n|__/       \\______/  \\______/ |________/|__/  |__/';
     console.log(Fucla);
 });
+
+
+
+
+
+
+
+
+
+
+

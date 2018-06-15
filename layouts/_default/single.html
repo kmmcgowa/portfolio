@@ -1,7 +1,12 @@
 {{ define "main" }}
-	<article class="single-post-layout">
-		<img src="{{ .Site.BaseURL }}/img/{{ .Params.main_image }}" alt="{{ .Params.main_image_alt }}" class="post-hero-img">
-		<h2 class="serif post-title">{{ .Title }}</h2>
-		<div class="post-content">{{ .Content }}</div>
+	<article class="single-post-layout subgrid post">
+		<div class="middle-col">
+
+			{{ $imageData := (dict "context" . "className" "post-hero-img") }}
+			{{ partial "blog-image" $imageData }}
+			
+			<h2 class="serif post-title">{{ .Title }}</h2>
+			<div class="post-content">{{ .Content }}</div>
+		</div>
 	</article>
 {{ end }}

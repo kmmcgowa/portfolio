@@ -1,7 +1,7 @@
 {
 	"title": "London and Paris",
 	"date": "2017-07-01T18:27:59-07:00",
-	"draft": true,
+	"draft": false,
 	"author": "Kevin McGowan",
 	"type": "blog",
 	"resources": [

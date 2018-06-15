@@ -1,7 +1,7 @@
 {
 	"title": "Playing with RFID",
 	"date": "2017-02-01T18:27:14-07:00",
-	"draft": true,
+	"draft": false,
 	"author": "Kevin McGowan",
 	"type": "blog",
 	"resources": [

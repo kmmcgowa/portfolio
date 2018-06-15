@@ -1,7 +1,7 @@
 {
 	"title": "Graduation at last!",
 	"date": "2017-05-01T18:27:46-07:00",
-	"draft": true,
+	"draft": false,
 	"author": "Kevin McGowan",
 	"type": "blog",
 	"resources": [

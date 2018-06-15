@@ -1,0 +1,14 @@
+{{/* requires 3 params: src="" and caption="" float="left or right" */}}
+
+
+{{ $image := .Page.Resources.GetMatch ( .Get "src" ) }}
+{{ .Scratch.Set "newImage" ($image.Resize "600x q75") }}
+{{ $newImage := .Scratch.Get "newImage" }}
+
+<div class="half-image-text-container">
+	<figure class="half-float-image-box" style='float:{{ .Get "float" }};'>
+		<img src="{{ $newImage.RelPermalink }}" alt='{{ .Get "caption" }}' class="half-float-image">
+		<figcaption class="caption">{{ .Get "caption" }}</figcaption>
+	</figure>
+	{{ .Inner }}
+</div>

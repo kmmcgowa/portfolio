@@ -1,5 +1,5 @@
 {
-	"title": "Thesis-Documentation",
+	"title": "Thesis Documentation",
 	"date": "2017-05-08T20:18:03-07:00",
 	"draft": true,
 	"author": "Kevin McGowan",

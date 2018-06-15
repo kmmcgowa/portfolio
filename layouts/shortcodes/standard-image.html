@@ -4,6 +4,7 @@
 {{ $image := .Page.Resources.GetMatch ( .Get "src" ) }}
 {{ .Scratch.Set "newImage" ($image.Resize "1200x q75") }}
 {{ $newImage := .Scratch.Get "newImage" }}
+
 <figure class="standard-image-box">
 	<img src="{{ $newImage.RelPermalink }}" alt='{{ .Get "caption" }}' class="standard-image">
 	<figcaption class="caption">{{ .Get "caption" }}</figcaption>

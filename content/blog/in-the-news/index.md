@@ -1,7 +1,7 @@
 {
 	"title": "In the news",
 	"date": "2018-02-10T18:29:27-07:00",
-	"draft": true,
+	"draft": false,
 	"author": "Kevin McGowan",
 	"type": "blog",
 	"resources": [

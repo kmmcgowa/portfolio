@@ -13,7 +13,6 @@ figure {
 .standard-image-box {
 	position: relative;
 	height: 0;
-	padding-bottom: calc(100% + 65px);
 	.standard-image {
 		position: absolute;
 		width: calc(100% + 40px);
@@ -21,10 +20,7 @@ figure {
 	}
 	.caption {
 		position: relative;
-		padding-top: calc(100% + 40px);
 		font-size: .9em;
 		color: lighten($text-primary, 20%);
 	}
 }
-
-

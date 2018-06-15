@@ -1,7 +1,7 @@
 {
 	"title": "Almost There",
 	"date": "2017-05-01T18:27:28-07:00",
-	"draft": true,
+	"draft": false,
 	"author": "Kevin McGowan",
 	"type": "blog",
 	"resources": [

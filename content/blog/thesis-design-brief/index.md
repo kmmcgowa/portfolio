@@ -1,7 +1,7 @@
 {
 	"title": "Thesis Design Brief",
 	"date": "2017-01-01T18:26:51-07:00",
-	"draft": true,
+	"draft": false,
 	"author": "Kevin McGowan",
 	"type": "blog",
 	"resources": [
