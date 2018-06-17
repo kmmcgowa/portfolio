@@ -1,7 +1,7 @@
 {
 	"title": "Rubens Tube",
 	"date": "2014-05-02T21:40:51-07:00",
-	"draft": true,
+	"draft": false,
 	"author": "Kevin McGowan",
 	"type": "work",
 	"resources": [

@@ -5,18 +5,18 @@
     <link>https://kevin-mcgowan.com/</link>
     <description>Recent content on Kevin McGowan&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 28 May 2018 20:21:27 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 28 May 2018 20:21:15 -0700</lastBuildDate>
     
 	<atom:link href="https://kevin-mcgowan.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>About</title>
+      <title></title>
       <link>https://kevin-mcgowan.com/about/</link>
-      <pubDate>Mon, 28 May 2018 20:21:27 -0700</pubDate>
+      <pubDate>Mon, 28 May 2018 20:21:15 -0700</pubDate>
       
       <guid>https://kevin-mcgowan.com/about/</guid>
-      <description>about about about</description>
+      <description>Hi my name is Kevin and I make stuff.</description>
     </item>
     
     <item>
@@ -46,6 +46,16 @@ Kevin McGowan graduated among the first cohort of the Media Arts+Practice divisi
       
       <guid>https://kevin-mcgowan.com/blog/london-and-paris/</guid>
       <description>It&amp;rsquo;s now a week after returning from Europe. London is AMAZING, I so desperately want to live there at some point in my life, at least have a second home there. Luckily this year, my mum did not make us go to all the famous land marks that typically make up the city. This trip was spent mainly at contemporary locations around the city and historical place just outside. We did a tour at Oxford University day 2.</description>
+    </item>
+    
+    <item>
+      <title>Thesis Documentation</title>
+      <link>https://kevin-mcgowan.com/work/thesis-documentation/</link>
+      <pubDate>Mon, 08 May 2017 20:18:03 -0700</pubDate>
+      
+      <guid>https://kevin-mcgowan.com/work/thesis-documentation/</guid>
+      <description>This is the video presentation of my senior thesis entitled, Tangible HTML.For a quick understanding of the project enjoy the video below, for a more thorough read into the project please visit my Thesis page.
+  </description>
     </item>
     
     <item>
@@ -82,6 +92,24 @@ Kevin McGowan graduated among the first cohort of the Media Arts+Practice divisi
       
       <guid>https://kevin-mcgowan.com/blog/thesis-design-brief/</guid>
       <description>To reach the ultimate goal of this project took an awful lot of &amp;lsquo;soul searching&amp;rsquo; would be the best estimate I could give. I approached the assignment by creating lists of things that interested me; these included things such as building physical object, anything BIG, and lots of coding involved. Combined these are aspects that would end up creating a project that I would enjoy working on and would hopefully be revolutionary.</description>
+    </item>
+    
+    <item>
+      <title>Mapping Music</title>
+      <link>https://kevin-mcgowan.com/work/mapping-music/</link>
+      <pubDate>Fri, 08 May 2015 20:34:58 -0700</pubDate>
+      
+      <guid>https://kevin-mcgowan.com/work/mapping-music/</guid>
+      <description>Following my love of music and passion for visualizing data, I have created a tool that is used to create unique visualizations of any song that is brought into the program. Inspired by Casey Reas&amp;rsquo;s work, I built a program of objects and rules. All objects have a form and a simple set of rules. An example includes form no. 1: A circle that tries to move away from all other circles.</description>
+    </item>
+    
+    <item>
+      <title>Rubens Tube</title>
+      <link>https://kevin-mcgowan.com/work/rubens-tube/</link>
+      <pubDate>Fri, 02 May 2014 21:40:51 -0700</pubDate>
+      
+      <guid>https://kevin-mcgowan.com/work/rubens-tube/</guid>
+      <description>Built as my final project of freshman year, the rubens tube was designed as a crossover project from a traditional physics experiment to a contemporary art piece. In physics, the rubens tube is a simple experiment made for visualizing sound waves with fire. It, at its most basic aspect, is a BBQ with a speaker attached. As the speaker creates sound, the pressure in the tube fluctuates based off of the sound waves.</description>
     </item>
     
   </channel>

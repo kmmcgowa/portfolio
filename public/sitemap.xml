@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://kevin-mcgowan.com/about/</loc>
-    <lastmod>2018-05-28T20:21:27-07:00</lastmod>
+    <lastmod>2018-05-28T20:21:15-07:00</lastmod>
   </url>
   
   <url>
@@ -20,6 +20,11 @@
   <url>
     <loc>https://kevin-mcgowan.com/blog/london-and-paris/</loc>
     <lastmod>2017-07-01T18:27:59-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kevin-mcgowan.com/work/thesis-documentation/</loc>
+    <lastmod>2017-05-08T20:18:03-07:00</lastmod>
   </url>
   
   <url>
@@ -43,6 +48,16 @@
   </url>
   
   <url>
+    <loc>https://kevin-mcgowan.com/work/mapping-music/</loc>
+    <lastmod>2015-05-08T20:34:58-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kevin-mcgowan.com/work/rubens-tube/</loc>
+    <lastmod>2014-05-02T21:40:51-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kevin-mcgowan.com/blog/</loc>
     <lastmod>2018-02-10T18:29:27-07:00</lastmod>
     <priority>0</priority>
@@ -55,12 +70,18 @@
   
   <url>
     <loc>https://kevin-mcgowan.com/</loc>
-    <lastmod>2018-05-28T20:21:27-07:00</lastmod>
+    <lastmod>2018-05-28T20:21:15-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kevin-mcgowan.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kevin-mcgowan.com/work/</loc>
+    <lastmod>2017-05-08T20:18:03-07:00</lastmod>
     <priority>0</priority>
   </url>
   

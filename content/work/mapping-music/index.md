@@ -1,7 +1,7 @@
 {
 	"title": "Mapping Music",
 	"date": "2015-05-08T20:34:58-07:00",
-	"draft": true,
+	"draft": false,
 	"author": "Kevin McGowan",
 	"type": "work",
 	"resources": [

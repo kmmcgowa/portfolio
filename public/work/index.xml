@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Works on Kevin McGowan&#39;s Portfolio</title>
+    <link>https://kevin-mcgowan.com/work/</link>
+    <description>Recent content in Works on Kevin McGowan&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 08 May 2017 20:18:03 -0700</lastBuildDate>
+    
+	<atom:link href="https://kevin-mcgowan.com/work/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Thesis Documentation</title>
+      <link>https://kevin-mcgowan.com/work/thesis-documentation/</link>
+      <pubDate>Mon, 08 May 2017 20:18:03 -0700</pubDate>
+      
+      <guid>https://kevin-mcgowan.com/work/thesis-documentation/</guid>
+      <description>This is the video presentation of my senior thesis entitled, Tangible HTML.For a quick understanding of the project enjoy the video below, for a more thorough read into the project please visit my Thesis page.
+  </description>
+    </item>
+    
+    <item>
+      <title>Mapping Music</title>
+      <link>https://kevin-mcgowan.com/work/mapping-music/</link>
+      <pubDate>Fri, 08 May 2015 20:34:58 -0700</pubDate>
+      
+      <guid>https://kevin-mcgowan.com/work/mapping-music/</guid>
+      <description>Following my love of music and passion for visualizing data, I have created a tool that is used to create unique visualizations of any song that is brought into the program. Inspired by Casey Reas&amp;rsquo;s work, I built a program of objects and rules. All objects have a form and a simple set of rules. An example includes form no. 1: A circle that tries to move away from all other circles.</description>
+    </item>
+    
+    <item>
+      <title>Rubens Tube</title>
+      <link>https://kevin-mcgowan.com/work/rubens-tube/</link>
+      <pubDate>Fri, 02 May 2014 21:40:51 -0700</pubDate>
+      
+      <guid>https://kevin-mcgowan.com/work/rubens-tube/</guid>
+      <description>Built as my final project of freshman year, the rubens tube was designed as a crossover project from a traditional physics experiment to a contemporary art piece. In physics, the rubens tube is a simple experiment made for visualizing sound waves with fire. It, at its most basic aspect, is a BBQ with a speaker attached. As the speaker creates sound, the pressure in the tube fluctuates based off of the sound waves.</description>
+    </item>
+    
+  </channel>
+</rss>

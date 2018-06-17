@@ -1,16 +1,36 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>{{ .Site.Title }}</title>
-</head>
+{{ partial "head" . }}
 <body>
-	<h1>The site homepage</h1>
-	<hr>
-	{{ partial "nav" . }}
-	<hr>
-	{{ range where .Data.Pages "Section" "work"}}
-		{{ .Content }}
-		<hr>
-	{{ end}}
+	<div class="grid-container">
+		<div class="left-gutter"></div>
+
+		{{ partial "header" . }}
+
+		<div class="right-gutter"></div>
+
+		{{ partial "nav" . }}
+
+		<main class="app-main-container">
+			<div class="content-wrapper">
+				<section class="subgrid work">
+				{{ range where .Data.Pages.ByDate.Reverse "Section" "work" }}
+					<a href="{{ .Permalink }}">
+						<div class="project-box">
+							{{ $imageData := (dict "context" . "className" "project-thumb") }}
+									{{ partial "blog-image" $imageData }}
+							<div class="project-title">
+								<h4 class="serif">{{ .Title }}</h4>
+							</div>
+						</div>
+					</a>
+				{{ end }}
+				</section>
+			</div>
+		</main>
+
+		{{ partial "footer" . }}
+
+	</div>
+
+	{{ partial "scripts" . }}
 </body>
 </html>
