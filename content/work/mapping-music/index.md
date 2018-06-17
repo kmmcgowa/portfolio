@@ -7,7 +7,7 @@
 	"resources": [
 		{
 			"name": "primary_image",
-			"src": "map.jpg",
+			"src": "mapping.png",
 			"title": "Projection of the Mapping Music Interactive"
 		}
 	]
