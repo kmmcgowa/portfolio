@@ -10,7 +10,12 @@
   }
 
   &.work {
-		grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+
+		grid-template-columns: auto;
+
+		@include MQ(lg) {
+			grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+		}
 		grid-auto-rows: 400px;
   }
 }
