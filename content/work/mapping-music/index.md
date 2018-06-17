@@ -7,7 +7,7 @@
 	"resources": [
 		{
 			"name": "primary_image",
-			"src": "mapping.jpg",
+			"src": "map.jpg",
 			"title": "Projection of the Mapping Music Interactive"
 		}
 	]
@@ -17,6 +17,6 @@ Following my love of music and passion for visualizing data, I have created a to
 
 I then took the project one step further and incorporated an interactive control board to give users more control in addition to choosing the song. The board allowed users to control the number of elements on screen, toggle behaviors among other things. This made the project a fun interactive music visualizer unlike anything else out there.
 
-{{< standard-image src="test.jpg" caption="Control Board" >}}
+{{< standard-image src="board.jpg" caption="Control Board" >}}
 
 *Mapping Music* was only shown once during the final of IML 288.
