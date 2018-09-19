@@ -19,4 +19,4 @@ I used this property to see if this simple effect could be used as a data visual
 
 {{< vimeo 81838999 >}}
 
-[Ruben's Tube (IML 102 Final Project](https://vimeo.com/81838999)
+[Ruben's Tube (IML 102 Final Project)](https://vimeo.com/81838999)
